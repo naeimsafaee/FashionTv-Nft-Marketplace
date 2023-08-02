@@ -1,0 +1,41 @@
+{
+	"server": {
+		"port": "8000"
+	},
+	"files": {
+		"S3": {
+			"accessKeyId": "AKIAUG7UHE66TSUMRXGH",
+			"secretAccessKey": "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",
+			"url": "https://d8zx95odhyhh.cloudfront.net",
+			"region": "eu-central-1",
+			"bucket": "ftvio",
+			"directories": {
+				"images": "images",
+				"audios": "audios",
+				"videos": "videos",
+				"application": "application"
+			},
+			"maxFileSizeMB": {
+				"images": 5,
+				"audios": 5,
+				"videos": 15,
+				"application": 10
+			},
+			"secureLink": {
+				"expiry": 1200
+			}
+		}
+	},
+	"ipfs": {
+		"apiName": "volex-develop",
+		"apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDRlM2I1RjcxMjkwMjI5NEQ2ZDBGNTRjOTMyZTczNzQ0OWNCRTdlNWUiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY0OTc3NDk4OTcxOCwibmFtZSI6InZvbGV4LWRldmVsb3AifQ.mns-3zlQRgexyQ1Eg2FlyJJXpfq69KYkpFxO0kGm_es"
+	},
+	"app": {
+		"logger": {
+			"morgan": {
+				"enable": true,
+				"format": ":date[clf]    :method :url :status :remote-addr    :user-agent    [:total-time ms - :response-time ms]"
+			}
+		}
+	}
+}

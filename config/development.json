@@ -1,0 +1,48 @@
+{
+	"authentication": {
+		"public": {
+			"secret": "xxxxxxxx",
+			"expiry": 604800
+		},
+		"manager": {
+			"secret": "xxxxxxxx",
+			"accessExpiry": 300000,
+			"refreshExpiry": 20000000,
+			"expiry": 300000,
+			"sessionSecrect": "qowiueojwojfalksdjoqiwueo"
+		}
+	},
+	"databases": {
+		"mongodb": "mongodb://ftvUser:CnLJCFmmB4jq4e9C@18.157.159.49:27017/ftvmarket"
+	},
+	"captcha": {
+		"recaptchaV2SecKey": "6LdCPogfAAAAALhKzljb0nl3yUV-k7QwnT46idP-"
+	},
+	"contracts": {
+		"ethErc721": "0xdb9746ad3394b7462f3d9b400b89549e4860c22d",
+		"ethExchange": "0xdef1c0ded9bec7f1a1670819833240f027b25eff",
+		"polygonErc721": "0x8a24a3e81dbeb441966395d57a206d8466526758",
+		"polygonExchange": "0x4fb72262344034e034fce3d9c701fd9213a55260",
+		"ethereumWeth": "0xc778417e063141139fce010982780140aa0cd5ab",
+		"polygonWeth": "0xA6FA4fB5f76172d178d61B04b0ecd319C5d1C0aa",
+		"erc721": "0x0b7939881d1bFD1364F097d6ECfe6418C468f829",
+		"weth": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+		"BSC": "0x4fa5274963960AB581064F265B0060bE76d8Bc99"
+	},
+	"providers": {
+		"ethereum": "https://ropsten.infura.io/v3/0ef2239a520747438505be8d628ec1fb",
+		"polygon": "https://polygon-mumbai.g.alchemy.com/v2/NbKbne7DRhYgPjHQAk22Qkjy9lQMHcLP",
+		"ethWebsocket": "wss://rinkeby-light.eth.linkpool.io/ws",
+		"bsc": "wss://bsc-testnet.nodereal.io/ws/v1/243fe7551f6c471fa4c57e154eaec7a3"
+	},
+	"apiKey": {
+		"polygon": {
+			"key": "927RMUH3QD93PJ3C1H56GT2VX958F22GJ5",
+			"url": "https://api-testnet.polygonscan.com"
+		},
+		"ethereum": {
+			"key": "8UJ7PYY2UPVXWHD7KSCM6V1A5W9ZBU7KK4",
+			"url": "https://api-ropsten.etherscan.io"
+		}
+	}
+}

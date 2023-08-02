@@ -1,0 +1,29 @@
+{
+	"authentication": {
+		"public": {
+			"secret": "xxxxxxxx",
+			"expiry": 604800
+		},
+		"manager": {
+			"secret": "xxxxxxxx",
+			"accessExpiry": 300000,
+			"refreshExpiry": 20000000,
+			"expiry": 300000,
+			"sessionSecrect": "qowiueojwojfalksdjoqiwueo"
+		}
+	},
+	"databases": {
+		"mongodb": {
+			"db": {
+				"name": "ftvmarket",
+				"host": "3.68.86.196",
+				"port": "27017"
+			},
+			"username": "ftvUser",
+			"password": "CnLJCFmmB4jq4e9C"
+		}
+	},
+	"captcha": {
+		"recaptchaV2SecKey": "6LdCPogfAAAAALhKzljb0nl3yUV-k7QwnT46idP-"
+	}
+}
